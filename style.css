@@ -1,0 +1,73 @@
+body, html {
+height: 100%;
+background-image:url("https://images.pexels.com/photos/6324136/pexels-photo-6324136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover; 
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    background-color:transparent; 
+  }
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(43, 41, 41);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .navbar a:hover {
+    color: rgba(74, 70, 70, 0.866);
+    opacity: 0.75; 
+  }
+
+  .active {
+    color: rgba(74, 109, 117, 0.866); 
+  }
+    .header {
+        position: relative;
+        text-align: center;
+        color: rgb(43, 39, 39);
+  }
+  .header img {
+    float: left;
+    width: 100%}
+.header h1 {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, 130%);
+    font-size: 60px;
+      }
+
+.buttonscontainer {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-450%);
+}
+
+button {
+    background-color: transparent;
+    border: rgb(64, 60, 60) solid 2.5px;
+    border-radius: 5px;
+    opacity: 50;
+    color: rgb(18, 19, 19);
+    padding: 15px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: medium;
+    margin-right: 8px
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
